@@ -1,0 +1,26 @@
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: x-2013-03-16-banc_development
+  pool: 5
+  host: localhost
+  username: edmundmai
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: x-2013-03-16-banc_test
+  pool: 5
+  host: localhost
+  username: edmundmai
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: x-2013-03-16-banc_production
+  pool: 5
+  username: edmundmai
+  password:
